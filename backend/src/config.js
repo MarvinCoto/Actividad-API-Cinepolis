@@ -7,7 +7,7 @@ dotenv.config();
 
 export const config = {
     db: {
-        URI: process.env.DB_URI || "mongodb://localhost:27017/ActividadCinema",
+        URI: process.env.DB_URI || "mongodb+srv://MarvinCoto:marvinjavierCoto1@cluster0.vxund.mongodb.net/CinepolisDB",
     },
     server: {
         port: process.env.PORT || 4000,
