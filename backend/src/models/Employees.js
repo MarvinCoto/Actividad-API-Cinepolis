@@ -9,7 +9,6 @@
        hireDate
        salary
        dui
-       isVerified
 */
 
 import { Schema, model } from "mongoose";
@@ -49,10 +48,6 @@ const employeesSchema = new Schema({
     },
     dui: {
         type: String,
-        require: true
-    },
-    isVerified: {
-        type: Boolean,
         require: true
     }
 }, 
